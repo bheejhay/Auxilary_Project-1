@@ -45,7 +45,7 @@ if [ $(id -u) -eq 0 ]; then
 
 # We need to create and set public key for users in the server
     cp _R "/root/onboard/id_rsa" "/home/$user/.ssh/authorized_keys"
-    echo "Copied the Public Key to New USerAvccount on the server"
+    echo "Copyied the Public Key to New User Account on the server"
     echo
     echo
 
