@@ -11,7 +11,7 @@ userfile=$(cat names.csv)
 PASSWORD=braiding
 
 # To ensure the user running this script has sudo priviledge
-if [ $(id -u) -eq 0 ]; then
+    if [ $(id -u) -eq 0 ]; then
 
 #Reading the CSV file
 
